@@ -1,0 +1,6 @@
+{
+	"@metadata": {
+		"authors": [ "Antarktidov" ]
+	},
+	"spoilerspan-description": "Добавляет тэг spoiler, скрывающий текст, который открывается при нажатии на него."
+}

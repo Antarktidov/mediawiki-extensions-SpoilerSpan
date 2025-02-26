@@ -1,0 +1,6 @@
+{
+	"@metadata": {
+		"authors": [ "Antarktidov" ]
+	},
+	"spoilerspan-description": "The extension adds a spoiler tag in wikitext that hides the text and opens when you click on it."
+}

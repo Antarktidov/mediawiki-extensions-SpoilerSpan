@@ -1,8 +1,9 @@
 {
     "name": "SpoilerSpan",
     "version": "1.0.0",
-    "author": "Antarctidov",
-    "description": "Добавляет тэг <spoiler>, скрывающий текст, который открывается при нажатии на него.",
+    "author": "Antarktidov",
+    "descriptionmsg": "SpoilerSpan-description",
+    "license-name": "MIT",
     "type": "other",
     "requires": {
         "MediaWiki": ">= 1.35.0"
@@ -25,5 +26,10 @@
             "position": "top"
         }
     },
+    "MessagesDirs": {
+		"SpoilerSpan": [
+			"i18n"
+		]
+	},
     "manifest_version": 2
 }
