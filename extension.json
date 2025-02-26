@@ -1,0 +1,29 @@
+{
+    "name": "SpoilerSpan",
+    "version": "1.0.0",
+    "author": "Antarctidov",
+    "description": "Добавляет тэг <spoiler>, скрывающий текст, который открывается при нажатии на него.",
+    "type": "other",
+    "requires": {
+        "MediaWiki": ">= 1.35.0"
+    },
+    "AutoloadClasses": {
+        "SpoilerSpanHooks": "includes/SpoilerSpanHooks.php"
+    },
+    "Hooks": {
+		"ParserFirstCallInit": "SpoilerSpanHooks::onParserSetup"
+	},
+    "ResourceModules": {
+        "ext.RecentPages": {
+            "styles": [
+                "extensions/SpoilerSpan/resources/ext.SpoilerSpans.css"
+            ],
+            "scripts": [
+                "extensions/SpoilerSpan/resources/ext.SpoilerSpan.js"
+            ],
+	    "targets": [ "desktop", "mobile" ], 
+            "position": "top"
+        }
+    },
+    "manifest_version": 2
+}
