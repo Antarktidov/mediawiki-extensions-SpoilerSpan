@@ -9,7 +9,9 @@ class SpoilerSpanHooks {
 	}
 
 	public static function renderTagSpoiler( $input, array $args, Parser $parser, PPFrame $frame ) {
-
-		return '<span class="spoiler-span>"' . $input . '</span>';
+		$out = $parser->getOutput();
+		$out->addModules(['ext.SpoilerSpan']);
+		$processedInput = $parser->recursiveTagParse($input, $frame);
+        return '<span class="spoiler-span">' . $processedInput . '</span>';
 	}
 }

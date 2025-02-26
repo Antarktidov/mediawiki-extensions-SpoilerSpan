@@ -14,9 +14,9 @@
 		"ParserFirstCallInit": "SpoilerSpanHooks::onParserSetup"
 	},
     "ResourceModules": {
-        "ext.RecentPages": {
+        "ext.SpoilerSpan": {
             "styles": [
-                "extensions/SpoilerSpan/resources/ext.SpoilerSpans.css"
+                "extensions/SpoilerSpan/resources/ext.SpoilerSpan.css"
             ],
             "scripts": [
                 "extensions/SpoilerSpan/resources/ext.SpoilerSpan.js"

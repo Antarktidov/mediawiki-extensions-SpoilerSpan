@@ -1,0 +1,13 @@
+/* ext.SpoilerSpan.css */
+.spoiler-span {
+    background-color: gray;
+    color: transparent;
+    border-radius: 3px;
+}
+.spoiler-span * {
+    color: transparent !important;
+    background-color: gray !important;
+}
+.spoiler-span:hover {
+    cursor: pointer;
+}
