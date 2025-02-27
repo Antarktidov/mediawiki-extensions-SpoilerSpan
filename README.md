@@ -1,6 +1,6 @@
 Simple MediaWiki extension that adds tag <spoiler> to wikitext.
 # Installation
-1. Download extension to the extensions folder of your MediaWiki: git clone https://github.com/Antarktidov/mediawiki-extensions-SpoilerSpan
+1. Download extension to the extensions folder of your MediaWiki: ```git clone https://github.com/Antarktidov/mediawiki-extensions-SpoilerSpan```
 
 2. Rename mediawiki-extensions-SpoilerSpan to SpoilerSpan
 
