@@ -1,8 +1,9 @@
 {
     "name": "SpoilerSpan",
-    "version": "1.0.0",
     "author": "Antarktidov",
-    "descriptionmsg": "SpoilerSpan-desc",
+    "url": "https://github.com/Antarktidov/mediawiki-extensions-SpoilerSpan",
+    "descriptionmsg": "spoilerspan-desc",
+    "version": "1.0.0",
     "license-name": "MIT",
     "type": "other",
     "requires": {
@@ -12,8 +13,8 @@
         "SpoilerSpanHooks": "includes/SpoilerSpanHooks.php"
     },
     "Hooks": {
-		"ParserFirstCallInit": "SpoilerSpanHooks::onParserSetup"
-	},
+        "ParserFirstCallInit": "SpoilerSpanHooks::onParserSetup"
+    },
     "ResourceModules": {
         "ext.SpoilerSpan": {
             "styles": [
@@ -22,16 +23,14 @@
             "scripts": [
                 "extensions/SpoilerSpan/resources/ext.SpoilerSpan.js"
             ],
-            "messages": ["SpoilerSpan-desc"],
-
-	    "targets": [ "desktop", "mobile" ], 
+            "targets": [ "desktop", "mobile" ],
             "position": "top"
         }
     },
     "MessagesDirs": {
-		"SpoilerSpan": [
-			"i18n"
-		]
-	},
+        "SpoilerSpan": [
+            "i18n"
+        ]
+    },
     "manifest_version": 2
 }
