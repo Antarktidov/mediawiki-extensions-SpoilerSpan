@@ -8,6 +8,9 @@
     color: transparent !important;
     background-color: gray !important;
 }
+.spoiler-span a {
+    pointer-events: none;
+}
 .spoiler-span:hover {
     cursor: pointer;
 }
