@@ -4,7 +4,7 @@ Simple MediaWiki extension that adds tag ```<spoiler>``` to wikitext.
 
 2. Rename **mediawiki-extensions-SpoilerSpan** folder to **SpoilerSpan**
 
-3. Load the extension in **LocalSettings.php** ```wfLoadExtension( '*SpoilerSpan' );```
+3. Load the extension in **LocalSettings.php** ```wfLoadExtension( 'SpoilerSpan' );```
 
 # Usage
 In source code editor insert the following code
