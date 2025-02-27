@@ -14,7 +14,7 @@ In source code editor insert the following code
 After saving the page, the text under spoiler will be hidden. To see it, click on it.
 
 # Bug reports
-Please report about bags on [Github extension issues page](https://github.com/Antarktidov/mediawiki-extensions-SpoilerSpan/issues).
+Please report about bugs on [Github extension issues page](https://github.com/Antarktidov/mediawiki-extensions-SpoilerSpan/issues).
 
 # README in other languages:
 * [Русский](https://github.com/Antarktidov/mediawiki-extensions-SpoilerSpan/blob/main/translated-readmes/ru.md)
