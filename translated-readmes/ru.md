@@ -4,7 +4,7 @@
 
 2. Измените название **mediawiki-extensions-SpoilerSpan** на **SpoilerSpan**
 
-3. Подключите расширение, добавив код ```wfLoadExtension( '*SpoilerSpan' );``` в файл **LocalSettings.php**
+3. Подключите расширение, добавив код ```wfLoadExtension( 'SpoilerSpan' );``` в файл **LocalSettings.php**
 
 # Использование
 В режиме исходного кода добавьте следующий код:
