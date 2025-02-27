@@ -2,7 +2,7 @@
     "name": "SpoilerSpan",
     "version": "1.0.0",
     "author": "Antarktidov",
-    "descriptionmsg": "SpoilerSpan-description",
+    "descriptionmsg": "SpoilerSpan-desc",
     "license-name": "MIT",
     "type": "other",
     "requires": {
@@ -22,6 +22,8 @@
             "scripts": [
                 "extensions/SpoilerSpan/resources/ext.SpoilerSpan.js"
             ],
+            "messages": ["SpoilerSpan-desc"],
+
 	    "targets": [ "desktop", "mobile" ], 
             "position": "top"
         }

@@ -11,6 +11,7 @@ class SpoilerSpanHooks {
 	public static function renderTagSpoiler( $input, array $args, Parser $parser, PPFrame $frame ) {
 		$out = $parser->getOutput();
 		$out->addModules(['ext.SpoilerSpan']);
+		$out->addWikiMsg( 'SpoilerSpan-description' );
 		$processedInput = $parser->recursiveTagParse($input, $frame);
         return '<span class="spoiler-span">' . $processedInput . '</span>';
 	}
