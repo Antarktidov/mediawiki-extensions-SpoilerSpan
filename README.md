@@ -6,7 +6,7 @@ Simple MediaWiki extension that adds tag <spoiler> to wikitext.
 
 3. Load the extension in LocalSettings.php wfLoadExtension( 'ToDoList' );
 
-# Isage
+# Usage
 In source code editor ibsert the following code
 ```wikitext
 <spoiler>Hidden text</spoiler>
