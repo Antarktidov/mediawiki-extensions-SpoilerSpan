@@ -14,7 +14,7 @@
 После сохранения страницы текст под спойлером будет скрыт. Чтобы увидеть его, нажмите на спойлер.
 
 # Сообщения об ошибках
-О найденых в расширении ошибках просьба сообщать [на github-странице с багами расширения](https://github.com/Antarktidov/mediawiki-extensions-SpoilerSpan/issues).
+О найденных в расширении ошибках просьба сообщать [на github-странице с багами расширения](https://github.com/Antarktidov/mediawiki-extensions-SpoilerSpan/issues).
 
 # README на других языках:
 * [English](https://github.com/Antarktidov/mediawiki-extensions-SpoilerSpan/blob/main/README.md)
