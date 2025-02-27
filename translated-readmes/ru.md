@@ -2,12 +2,12 @@
 # Установка
 1. Скачайте расширение в папку **extensions** вашей копии MediaWiki ```git clone https://github.com/Antarktidov/mediawiki-extensions-SpoilerSpan```
 
-2. Измените навзание **mediawiki-extensions-SpoilerSpan** на **SpoilerSpan**
+2. Измените название **mediawiki-extensions-SpoilerSpan** на **SpoilerSpan**
 
 3. Подключите расширение, добавив код ```wfLoadExtension( 'ToDoList' );``` в файл **LocalSettings.php**
 
 # Использование
-В режиме исходного кода добавте следующий код:
+В режиме исходного кода добавьте следующий код:
 ```wikitext
 <spoiler>Текст под спойлером</spoiler>
 ```
