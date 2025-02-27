@@ -1,10 +1,10 @@
 Простое расширение для MediaWiki, которое добавляет тэг ```<spoiler>```.
 # Установка
-1. Скачайте расширение в папку **extensions** вашей копии MediaWiki ```git clone https://github.com/Antarktidov/mediawiki-extensions-SpoilerSpan```
+1. Скачайте расширение в папку **extensions** вашей копии MediaWiki ```git clone https://github.com/Antarktidov/mediawiki-extensions-SpoilerSpan.git```
 
 2. Измените название **mediawiki-extensions-SpoilerSpan** на **SpoilerSpan**
 
-3. Подключите расширение, добавив код ```wfLoadExtension( 'ToDoList' );``` в файл **LocalSettings.php**
+3. Подключите расширение, добавив код ```wfLoadExtension( '*SpoilerSpan' );``` в файл **LocalSettings.php**
 
 # Использование
 В режиме исходного кода добавьте следующий код:
